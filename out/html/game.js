@@ -446,6 +446,10 @@
 
   window.onload = function() {
     window.dendryUI.loadSettings({show_portraits: true});
+    // the lite offline copy has no music folder: keep the music switched off
+    if (window.NO_MUSIC) {
+        window.dendryUI.disable_audio = true;
+    }
     // With no saved choice, follow the viewer's light or dark theme.
     if (readStorage(window.dendryUI.game.title + '_dark_mode') === null) {
       var theme = document.documentElement.getAttribute('data-theme');

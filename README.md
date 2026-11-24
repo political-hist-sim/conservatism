@@ -4,7 +4,7 @@ A total-conversion mod of [Social Democracy: An Alternate History](https://githu
 
 **Play it in your browser: https://political-hist-sim.github.io/conservatism/**
 
-**Play it offline on a laptop:** download [conservatism-offline.zip](https://political-hist-sim.github.io/conservatism/conservatism-offline.zip), unzip it and double-click `index.html` (see [Playing offline](#playing-offline)).
+**Play it offline on a laptop:** download [conservatism-offline.zip](https://political-hist-sim.github.io/conservatism/conservatism-offline.zip) (64 MB) or the [lite version without music](https://political-hist-sim.github.io/conservatism/conservatism-lite.zip) (3 MB), unzip it and double-click `index.html` (see [Playing offline](#playing-offline)).
 
 *Conservatism: An Alternate History* is a working title. Change it in `source/info.dry` and `out/html/index.html`.
 
@@ -91,11 +91,13 @@ The Commons has time for three major bills at once. The Government Business card
 
 The game runs entirely in your browser, so you can play it on a laptop with no internet:
 
-1. Download [conservatism-offline.zip](https://political-hist-sim.github.io/conservatism/conservatism-offline.zip) (64 MB, mostly music) once, while you're online. The game's Options screen links to it too.
+1. Download [conservatism-offline.zip](https://political-hist-sim.github.io/conservatism/conservatism-offline.zip) (64 MB, mostly music) once, while you're online, or [conservatism-lite.zip](https://political-hist-sim.github.io/conservatism/conservatism-lite.zip) (3 MB), which is the same game without the music. The game's Options screen links to both.
 2. Unzip it somewhere you'll keep it, such as your Documents folder.
 3. Open the `conservatism` folder and double-click `index.html`.
 
-There is nothing to install and no web server to run. Saved games are kept by your browser for that copy, separately from the online version, so keep the folder in the same place. To update, download the zip again and replace the folder. The zip is rebuilt on every deploy by `tools/make_offline.sh`.
+There is nothing to install and no web server to run. Saved games are kept by your browser for that copy, separately from the online version, so keep the folder in the same place. To update, download the zip again and replace the folder. Both zips are rebuilt on every deploy by `tools/make_offline.sh`.
+
+If a school or work network blocks the download, download it somewhere else and bring it on a USB stick: the game runs straight from the stick, too.
 
 ## Menus and options
 
