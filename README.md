@@ -4,6 +4,8 @@ A total-conversion mod of [Social Democracy: An Alternate History](https://githu
 
 **Play it in your browser: https://political-hist-sim.github.io/conservatism/**
 
+**Play it offline on a laptop:** download [conservatism-offline.zip](https://political-hist-sim.github.io/conservatism/conservatism-offline.zip), unzip it and double-click `index.html` (see [Playing offline](#playing-offline)).
+
 *Conservatism: An Alternate History* is a working title. Change it in `source/info.dry` and `out/html/index.html`.
 
 ## How the game plays
@@ -84,6 +86,16 @@ The Commons has time for three major bills at once. The Government Business card
 **A second term.** Win the second election as the government and a second term begins with a reshuffle: remake the Cabinet as in June 1983 (Lawson to the Treasury, Howe to the Foreign Office, Brittan to the Home Office, Whitelaw to the Lords and Pym sacked), or keep the team that won. The budget, the Cabinet's balance and the party's mood carry over, and the next Parliament runs to a third general election. The second term brings Kinnock, who makes Labour a serious opposition again, and the miners' strike of 1984–85. How the strike goes depends on choices made years earlier: coal stocked at the power stations, a nuclear programme, Tebbit's union law (without it the courts can't seize the NUM's funds) and the miners' mood. It wears down month by month, faster with Orgreave, the working miners, sequestration and the drift back at Christmas; in winter, low coal stocks push it the other way, and if the stocks run out the lights go out and the miners win. The Coal Dispute card offers firmness, national police coordination, TUC mediation or a compromise. Six more bills come with the second term: the sale of British Gas ("Tell Sid"), the Shops Bill to free Sunday trading (which faces a bloc of Christian and traditionalist rebels, as the real one did when 72 Conservatives voted it down in 1986), bus deregulation, the Financial Services Bill for the City's Big Bang, Fowler's reform of social security, and the Scottish poll tax. British Airways, Rolls-Royce and the airports can be sold too. In 1986 the oil price halves, and the Lawson boom follows if Bank Rate has come down far enough.
 
 **The end.** The game ends at the third general election, or earlier if you lose office: a defeat in government ends it, and so does losing twice from opposition. A legacy assessment covers inflation, unemployment, the unions, privatisation, the right to buy, the NHS, pensions, education, the rates, the Falklands, Europe, and whether you turned. There are 67 achievements, listed on the start menu with the ones you have and haven't unlocked.
+
+## Playing offline
+
+The game runs entirely in your browser, so you can play it on a laptop with no internet:
+
+1. Download [conservatism-offline.zip](https://political-hist-sim.github.io/conservatism/conservatism-offline.zip) (64 MB, mostly music) once, while you're online. The game's Options screen links to it too.
+2. Unzip it somewhere you'll keep it, such as your Documents folder.
+3. Open the `conservatism` folder and double-click `index.html`.
+
+There is nothing to install and no web server to run. Saved games are kept by your browser for that copy, separately from the online version, so keep the folder in the same place. To update, download the zip again and replace the folder. The zip is rebuilt on every deploy by `tools/make_offline.sh`.
 
 ## Menus and options
 
