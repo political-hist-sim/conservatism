@@ -1,0 +1,22 @@
+Conservatism: An Alternate History - offline copy
+==================================================
+
+You don't need the internet or anything installed to play this copy.
+
+1. Unzip conservatism-offline.zip somewhere you'll keep it, such as your
+   Documents folder.
+2. Open the "conservatism" folder.
+3. Double-click index.html. It opens in your web browser (Chrome, Edge,
+   Firefox or Safari) and the game starts.
+
+Saved games
+-----------
+Your browser keeps the saves for this copy, separately from the online
+version. Keep the folder in the same place, and don't clear your browser's
+history "for all time" with "site data" ticked, or the saves go with it.
+
+Updating
+--------
+Download the zip again from https://political-hist-sim.github.io/conservatism/conservatism-offline.zip
+and replace the old "conservatism" folder with the new one, in the same place.
+Saves from an older version may not work with a newer one.
