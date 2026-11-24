@@ -7,3 +7,4 @@ out/html/jquery-1.11.1.min.js
 out/html/d3.v7.min.js
 # the offline package, built by tools/make_offline.sh
 out/html/conservatism-offline.zip
+out/html/conservatism-lite.zip
